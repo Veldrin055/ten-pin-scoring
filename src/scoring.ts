@@ -1,7 +1,7 @@
 export type Frame = {
-  first: number
-  second: number
+
 }
+
 /**
  * Calculate the score of a bowling game
  *
@@ -16,8 +16,10 @@ export type Frame = {
  * Spare: When a second roll of a frame is needed to knock down all ten pins (marked "/" on the scorescreen), the frame
  * receives ten pins plus a bonus of pinfall in the next roll (not necessarily the next frame). A spare in the first
  * two rolls in the tenth (final) frame receives a third roll for bonus pins.
+ 
  * @param frames
  */
+
 export const calculateScore = (frames: Frame[]): number => {
   return 0
 }
